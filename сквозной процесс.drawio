@@ -1,0 +1,225 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.2.6">
+  <diagram name="Страница-1" id="eZ7mtm_6ROV45eij5kJv">
+    <mxGraphModel dx="3370" dy="3565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-3" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="клиент начинает оформление" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-7" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="отправляет заявку" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-4" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API Gateway получает заявку" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-11" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Application Service сохраняет заявку Статус: черновик" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-9" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-13" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-40" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" value="запуск&amp;nbsp;&lt;div&gt;параллельных процессов&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="130" x="275" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-15" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="OTP Service генерирует код" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-17" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Notification Service отправляет SMS/push уведомление&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-19" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-16" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Timer Service запускает таймер 5 мин" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-21" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-18" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Ожидание ввода кода клиентом" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-23" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-20" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="клиент вводит OTP" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-31" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="OTP Service проверяет код" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-26" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-27" connectable="0" parent="xOD3xyCmPilVrnt3q-8f-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="нет" vertex="1">
+          <mxGeometry relative="1" x="-0.0639" y="-1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-33" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-38" connectable="0" parent="xOD3xyCmPilVrnt3q-8f-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
+          <mxGeometry relative="1" x="-0.298" y="1" as="geometry">
+            <mxPoint x="-10" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-24" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="код верный ?" vertex="1">
+          <mxGeometry height="130" width="130" x="95" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-29" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-25" parent="1" style="whiteSpace=wrap;html=1;" value="Событие: Ошибка OTP" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="1905" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-30" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-28" parent="1" style="whiteSpace=wrap;html=1;" value="Notification Service:&lt;div&gt;Ошибка , попробуйте снова&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-35" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-32" parent="1" style="whiteSpace=wrap;html=1;" value="Событие: OTP подтвержден" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-49" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-48" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-34" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Application Service&amp;nbsp;&lt;div&gt;ожидает собития&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="160" x="500" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-42" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Content Service&amp;nbsp;&lt;div&gt;генерирует документ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="670" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-44" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-41" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Документ сохранен&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="670" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-45" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-43" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Событие: документ готов" vertex="1">
+          <mxGeometry height="60" width="120" x="670" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-51" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-66" connectable="0" parent="xOD3xyCmPilVrnt3q-8f-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="нет + таймер истек" vertex="1">
+          <mxGeometry relative="1" x="-0.1067" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-57" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-67" connectable="0" parent="xOD3xyCmPilVrnt3q-8f-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да + таймер не истек" vertex="1">
+          <mxGeometry relative="1" x="-0.3822" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-48" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Все события получены?" vertex="1">
+          <mxGeometry height="115" width="130" x="515" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-53" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-52" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-50" parent="1" style="whiteSpace=wrap;html=1;" value="Timer Service: Событие Таймер истек" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="2310" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-55" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-54" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-52" parent="1" style="whiteSpace=wrap;html=1;" value="Статус: Заявка отклонена по таймеру" vertex="1">
+          <mxGeometry height="80" width="140" x="310" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-64" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="xOD3xyCmPilVrnt3q-8f-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="2805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-54" parent="1" style="whiteSpace=wrap;html=1;" value="Notification Service:&lt;div&gt;Уведомление об отказе&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="2600" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-59" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-61" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-56" parent="1" style="whiteSpace=wrap;html=1;" value="Статус: Заявка одобрена" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="2310" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-63" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-62" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-58" parent="1" style="whiteSpace=wrap;html=1;" value="Notification Service:&lt;div&gt;уведомление об успехе&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="2440" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-65" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="xOD3xyCmPilVrnt3q-8f-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="2775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-60" parent="1" style="whiteSpace=wrap;html=1;" value="передача заявки в смежные системы&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="890" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-69" edge="1" parent="1" source="xOD3xyCmPilVrnt3q-8f-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xOD3xyCmPilVrnt3q-8f-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-62" parent="1" style="whiteSpace=wrap;html=1;" value="конец процесса" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="2760" as="geometry" />
+        </mxCell>
+        <mxCell id="xOD3xyCmPilVrnt3q-8f-68" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="600" y="2890" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
